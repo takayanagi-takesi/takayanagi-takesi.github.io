@@ -88,7 +88,7 @@ function arrayShuffle(array) {
     // button[buttonIndex].textContent = Math.floor(Math.random() * (quiz[quizIndex].answers[buttonIndex]));
     // arrayShuffle(button[buttonIndex].textContent)
     arrayShuffle(quiz[quizIndex].answers);
-    quiz[quizIndex].answers.splice(r,1);
+    // quiz[quizIndex].answers.splice(r,1);
     button[buttonIndex].textContent = quiz[quizIndex].answers[buttonIndex];
     // quiz[quizIndex].answers.splice(r,1)[buttonIndex];
  
