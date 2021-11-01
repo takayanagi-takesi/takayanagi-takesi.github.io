@@ -88,8 +88,10 @@ function arrayShuffle(array) {
     // button[buttonIndex].textContent = Math.floor(Math.random() * (quiz[quizIndex].answers[buttonIndex]));
     // arrayShuffle(button[buttonIndex].textContent)
     arrayShuffle(quiz[quizIndex].answers);
+    quiz[quizIndex].answers.splice(4);
     // quiz[quizIndex].answers.splice(r,1);
     button[buttonIndex].textContent = quiz[quizIndex].answers[buttonIndex];
+
     // quiz[quizIndex].answers.splice(r,1)[buttonIndex];
  
 
@@ -128,9 +130,13 @@ const clickHandler = (e) => {
     やおきくんのせいかいすうは<br>
     ${quizLength}もんちゅう${score}もんのせいかいです！`;
 
-    window.location.reload();
-
+    // document.getElementById('return').innerHTML = 
+    //   <input type="button" value="このページを再読込します" onclick="window.location.reload();"></input>;
+    // window.location.reload();
   }
+
+
+
 };
 
 let handlerIndex = 0;
@@ -143,6 +149,8 @@ while (handlerIndex < buttonLength) {
   handlerIndex++;
 
 };
+
+
 
 
 // $button[0].addEventListener('click', (e) => {
