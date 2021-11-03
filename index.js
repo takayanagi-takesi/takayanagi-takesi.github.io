@@ -130,10 +130,14 @@ const clickHandler = (e) => {
     やおきくんのせいかいすうは<br>
     ${quizLength}もんちゅう${score}もんのせいかいです！`;
 
-    document.getElementById('return').innerHTML = 
-    //   <input type="button" value="このページを再読込します" onclick="window.location.reload();"></input>;
+    // document.getElementById('reload').innerHTML = 
+    // reload.addEventListener('click', function() {
+    //   console.log('クリックされました');
+    //   // <input type="button" value="このページを再読込します" onclick="window.location.reload();"></input>;
+    // }, false);
+    
 
-      window.location.reload();
+      // window.location.reload();
   }
 
 
