@@ -130,14 +130,17 @@ const clickHandler = (e) => {
     やおきくんのせいかいすうは<br>
     ${quizLength}もんちゅう${score}もんのせいかいです！`;
 
-    // document.getElementById('return').innerHTML = 
+    document.getElementById('return').innerHTML = 
     //   <input type="button" value="このページを再読込します" onclick="window.location.reload();"></input>;
-    // window.location.reload();
+
+      window.location.reload();
   }
 
 
 
 };
+
+
 
 let handlerIndex = 0;
 // const buttonLength = $button.length;
