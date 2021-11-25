@@ -56,7 +56,7 @@ const setupQuiz = () => {
   // button[0].textContent = answers[0];
   // button[1].textContent = answers[1];
   // button[2].textContent = answers[2];
-  // button[3].textContent = answers[3];   ⇓⇓⇓⇓
+  // button[3].textContent = answers[3];    ⇓⇓⇓⇓
   // let buttonLength = $button.length;
   // ↑buttonLengthにbutton[]を代入
   // const shuffle = ([...answers]) => {
